@@ -42,4 +42,3 @@ class Calctest(unittest.TestCase):
 
     def test_divide3(self):
         self.assertEqual(self.calc.divide(100, 4), 25)
-        
