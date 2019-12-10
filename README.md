@@ -22,3 +22,12 @@
 - Pytest needs to be installed as a package.
 - However, it is pretty and clean.
 
+# create passenger
+# list all flights
+# can add passanger to flight
+
+# got to ms sql server and create 3 tables 
+
+# add a datapoint to each table
+
+# try to connect via pyodbc
