@@ -30,3 +30,16 @@ class Calctest(unittest.TestCase):
 
     def test_divide2(self):
         self.assertEqual(self.calc.divide(27, 3), 9)
+
+    def test_add3(self):
+        self.assertEqual(self.calc.add(283, 17), 300)
+
+    def test_subtract3(self):
+        self.assertEqual(self.calc.subtract(200, -7), 207)
+
+    def test_multiply3(self):
+        self.assertEqual(self.calc.multiply(13, 5), 65)
+
+    def test_divide3(self):
+        self.assertEqual(self.calc.divide(100, 4), 25)
+        
